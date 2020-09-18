@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1600px;
+
+}
+.screen1{
+    height: 744px;
+    background-image: url('assert/bg-image-wrapper.png');
+    display: grid;
+    /* grid-template-columns: repeat() */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+header{
+    display: flex;
+
+}
