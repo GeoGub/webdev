@@ -11,11 +11,62 @@ body{
     height: 744px;
     background-image: url('assert/bg-image-wrapper.png');
     display: grid;
-    /* grid-template-columns: repeat() */
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 95px auto 110px;
 }
 
 header{
+    height: 95px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.nav-link{
+    text-decoration: none;
+}
+
+nav{
+    color: white;
+}
+
+.nav-link-1, .nav-link-4{
+    margin-right: 85px;
+}
+
+.nav-link-3{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.your-life{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-life{
+    color: white;
+    width: 504px;
+    height: 50px;
+    text-align: center;
+}
+
+.btn-main{
+    background-color: #00AFDB;
+    color: white;
+    text-transform: uppercase;
+    width: 184px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
