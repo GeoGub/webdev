@@ -47,15 +47,24 @@ h1{
 }
 .your-life{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 140px;
 }
 
 .text-life{
-    color: white;
+    position: absolute;
     width: 504px;
     height: 50px;
+    left: 548px;
+    top: 326px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
     text-align: center;
 }
 
@@ -69,4 +78,136 @@ h1{
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    cursor: default;
+    position: absolute;
+    left: 707px;
+    top: 406px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: 715px;
+    top: 635px;
+}
+
+.screen2{
+    width: 1600px;
+    height: 721px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;   
+}
+
+.content-block{
+    margin-top: 175px;
+    width: 407px;
+    height: 233px;
+    margin-right: 248px;
+    position: relative;
+}
+
+.idea{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.text-idea{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    color: #4E4E4E;
+    margin-top: 20px;
+}
+
+.content-block > .btn-main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    width: 184px;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0px;
+    top: 187px;
+    background: #00AFDB;
+}
+
+.screen3{
+    height: 504px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.our-community-block{
+    width: 298px;
+    height: 175px;
+    margin-right: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.our-community{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.text-our-community{
+    margin-top: 10px;
+}
+
+.slider-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-item{
+    position: absolute;
+    width: 79px;
+    height: 20px;
+    left: 1252px;
+    top: 80px;
+}
+
+.our-community-img{
+    margin-left: 30px;
+    height: 244px;
 }
